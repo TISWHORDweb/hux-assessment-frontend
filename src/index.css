@@ -95,6 +95,10 @@
   font-size: 20px !important; 
 }
 
+.w-100{
+  width: 100%;
+}
+
 .bn633-hover {
   /* width: 160px; */
   font-size: 14px;

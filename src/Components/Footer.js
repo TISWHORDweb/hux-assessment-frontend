@@ -7,7 +7,7 @@ function Footer() {
                 <div className="container">
                     <center>
                         <div className="top">
-                            <h2 className='mb-4'>SKELLY</h2>
+                            <h2 className='mb-4'>REACH</h2>
                             <div className="links mb-3">
                                 <ul>
                                     <li>Home</li>
@@ -56,7 +56,7 @@ function Footer() {
                         </div>
                         <div className="down">
                             <ul>
-                                <li>©2024 SKELLY</li>
+                                <li>©2024 REACH</li>
                                 <li>All rights Reserved</li>
                                 <li>Privacy Policy | Terms Of Service</li>
                             </ul>
