@@ -4,6 +4,9 @@ import TableAction from './TableAction'
 function Tables() {
     return (
         <div className='container'>
+            <div className="header secondaryBg p-3">
+                <h2 className='m-0'>Contacts</h2>
+            </div>
             <div className="Table">
                 <div className="table">
                     <table class="table">

@@ -22,22 +22,22 @@ function Experience() {
                                     <div className="set">
                                         <img src={Img2} alt="" />
                                         <div className="">
-                                            <h5>Premium Acces</h5>
-                                            <p>Enable both crypto and fiat payments on your self-hosted checkout page.</p>
+                                            <h5>Important</h5>
+                                            <p>Never lose track of important information</p>
                                         </div>
                                     </div>
                                     <div className="set">
                                         <img src={Img3} alt="" />
                                         <div className="">
-                                            <h5>Professional</h5>
-                                            <p>Enable both crypto and fiat payments on your self-hosted checkout page.</p>
+                                            <h5>Productivity</h5>
+                                            <p>Increase productivity with efficient contact management.</p>
                                         </div>
                                     </div>
                                     <div className="set">
                                         <img src={Img4} alt="" />
                                         <div className="">
-                                            <h5>Grow Trend</h5>
-                                            <p>Enable both crypto and fiat payments on your self-hosted checkout page.</p>
+                                            <h5>Access</h5>
+                                            <p>Access your contacts anywhere, anytime, across devices.</p>
                                         </div>
                                     </div>
                                 </div>

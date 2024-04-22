@@ -8,11 +8,11 @@ function Banner() {
             <div className="Banner mb-5">
                 <center>
                 <div className="text mb-4 pt-5">
-                    <h2 className='animate__animated animate__fadeInDown'>Exploring ML Algorithms for Healthcare Anomaly Detection</h2>
-                    <p>In this exploration, we delve into machine learning (ML) algorithms tailored for anomaly detection within healthcare systems. By leveraging advanced ML techniques, we aim to develop robust models capable of identifying irregular patterns or outliers in medical data. These algorithms play a crucial role in enhancing healthcare analytics, enabling early detection of anomalies that may signify critical health issues or abnormalities in patient conditions.</p>
+                    <h2 className='animate__animated animate__fadeInDown'>Simplify Your Connections. Manage Contacts Effortlessly.</h2>
+                    <p>Organize your contacts, share information seamlessly, and stay connected with ease. Our web application makes managing contacts a breeze. Tired of the constant struggle to keep track of your contacts? Scattered emails, outdated spreadsheets, and cluttered notes create a disorganized mess, hindering your productivity and making it difficult to find the information you need, when you need it.</p>
                     <div className="btns animate__animated animate__bounce">
-                    <button class="bn632-hover bn21" type="">Get Started Free</button>
-                    <button class="bn632-hover bn19" type="">Explore Feature</button>
+                    <button class="bn632-hover bn21" type="">Try It Free</button>
+                    <button class="bn632-hover bn19" type="">Sign Up Now</button>
                     </div>
                 </div>
                 <img src={BannerImg} alt="" />

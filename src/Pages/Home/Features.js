@@ -11,42 +11,25 @@ function Features() {
                     <center >
                         <div className="header">
                             <h1>More Features</h1>
-                            <p className='f15'>These are a few of the key features of AITool that distinguishit from other AI platforms</p>
+                            <p className='f15'>These are a few of the key features of Reach that distinguishit from other Contact platforms</p>
                         </div>
                     </center>
                     <div className="each mt-5">
                         <div className="row mb-3">
                             <div className="col-md-4 mb-3">
                                 <img src={Img1} alt="" />
-                                <h4>Create command</h4>
-                                <p>Enables users to locate solutions to their inquiries without browsing numerous resources.</p>
+                                <h4>Powerful Search and Filtering:</h4>
+                                <p>Forget endlessly scrolling through endless lists. Our advanced search and filtering capabilities allow you to pinpoint specific contacts instantly. Search by name, email address, company, tags, or any custom field, making information retrieval a breeze.</p>
                             </div>
                             <div className="col-md-4 mb-3">
                                 <img src={Img2} alt="" />
-                                <h4>Improve everyday</h4>
-                                <p>The app uses natural language processing to understand user queries and provide accurate and relevant responses.</p>
+                                <h4> Advanced Sharing and Collaboration:</h4>
+                                <p> Collaboration simplified! Share your contact information with unique URLs, granting access to specific profiles or groups of contacts. Seamlessly collaborate with colleagues on client lists, vendor details, or team contacts, ensuring everyone has the latest information.</p>
                             </div>
                             <div className="col-md-4 mb-3">
                                 <img src={Img3} alt="" />
-                                <h4>Connect everywhere</h4>
-                                <p>Connect with the AI tool from anywhere, on any device, making it more accessible and convenient.</p>
-                            </div>
-                        </div>
-                        <div className="row mb-3">
-                            <div className="col-md-4 mb-3">
-                                <img src={Img1} alt="" />
-                                <h4>Create command</h4>
-                                <p>Enables users to locate solutions to their inquiries without browsing numerous resources.</p>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <img src={Img2} alt="" />
-                                <h4>Improve everyday</h4>
-                                <p>The app uses natural language processing to understand user queries and provide accurate and relevant responses.</p>
-                            </div>
-                            <div className="col-md-4 mb-3">
-                                <img src={Img3} alt="" />
-                                <h4>Connect everywhere</h4>
-                                <p>Connect with the AI tool from anywhere, on any device, making it more accessible and convenient.</p>
+                                <h4>Integration with Your Ecosystem:</h4>
+                                <p>Streamline your workflow further! Integrate Reach with your favorite tools and platforms. Seamlessly import contacts from your CRM, email provider, or calendar app, and eliminate the need for manual data entry. This ensures a centralized hub for all your contacts.</p>
                             </div>
                         </div>
                     </div>
