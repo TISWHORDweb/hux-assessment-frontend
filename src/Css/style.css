@@ -97,6 +97,21 @@ h1,h2,h3,h4,h5,h6 {
 .Banner img {
   width: 50%;
 }
+.view .each{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.view .each .sub{
+  font-size: 13px !important;
+  color: var(--color-primary);
+}
+
+.view .each .value{
+  font-size: 18px;
+  font-weight: 500;
+}
 
 .Features img {
   width: 16%;
@@ -266,4 +281,89 @@ h1,h2,h3,h4,h5,h6 {
 .inputts option {
   font-size: 12px !important;
   color: rgba(99, 119, 138, 0.5) !important;
+}
+
+.table{
+  background-color: var(--color-secondary) !important;
+}
+.Table table thead {
+  background-color: var(--color-primary) !important;
+  color: white;
+}
+.Table table thead th {
+  font-size: 16px !important;
+  color: var(--color-primary);
+}
+.Table table thead  {
+  background-color: var(--color-primary) !important;
+}
+.Table table tbody tr {
+  margin-bottom: 10px !important;
+  color: gray !important;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: var(--color-primary-light) !important;
+}
+.Table table tbody tr td,
+.Table table tbody tr th {
+  color: var(--color-secondary) !important;
+}
+.Table .down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Table .down li,
+.Table .down span {
+  color: var(--color-primary) !important;
+  background-color: transparent;
+}
+.tables thead{
+  background-color: var(--color-primary) !important;
+}
+.table>:not(caption)>*>* {
+  padding: 20px;
+  background-color: var(--color-primary-light) !important;
+}
+.table>:not(caption)>*>* thead{
+  background-color: var(--color-secondary) !important;
+}
+.TableAction .dot {
+  position: relative;
+  cursor: pointer;
+}
+.TableAction .dot img {
+  width: 3px;
+  margin: 0;
+  position: relative;
+}
+.TableAction .dot:hover div {
+  display: block;
+}
+.TableAction .dot .firstDiv {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid rgb(225, 225, 225);
+  right: -40px;
+  width: 175px;
+  border-radius: 5px;
+  z-index: 1;
+}
+ul{
+  padding: 0;
+}
+.TableAction .dot .firstDiv ul li {
+  padding: 10px 15px;
+  color: var(--color-primary);
+}
+.TableAction .dot .firstDiv ul li:hover {
+  background-color: var(--color-primary-light);
+}
+.TableAction .dot .firstDiv .flex:hover {
+  background: rgb(238, 255, 252);
+}
+.TableAction .dot .firstDiv span {
+  font-size: 13px;
 }
