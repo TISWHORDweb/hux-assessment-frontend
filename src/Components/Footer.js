@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import LogOut from './LogOut'
+import { Check } from '../Utils/Core'
 
 function Footer() {
+    const [check, setCheck] = useState()
+    useEffect(() => {
+        const Checked = Check()
+        setCheck(Checked)
+    }, [])
     return (
         <div>
             <div className="Footer">
@@ -37,6 +44,10 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
+                            {check ?
+                                <LogOut /> :
+                                <></>
+                            }
                             <hr />
                         </div>
                         <div className="middle mb-4">
