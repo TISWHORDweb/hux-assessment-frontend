@@ -304,6 +304,9 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 14px;
   background-color: var(--color-primary-light) !important;
 }
+.Table table tbody tr:hover{
+  background-color: red !important;
+}
 .Table table tbody tr td,
 .Table table tbody tr th {
   color: var(--color-secondary) !important;
@@ -328,42 +331,13 @@ h1,h2,h3,h4,h5,h6 {
 .table>:not(caption)>*>* thead{
   background-color: var(--color-secondary) !important;
 }
-.TableAction .dot {
-  position: relative;
-  cursor: pointer;
-}
-.TableAction .dot img {
-  width: 3px;
-  margin: 0;
-  position: relative;
-}
-.TableAction .dot:hover div {
-  display: block;
-}
-.TableAction .dot .firstDiv {
-  display: none;
-  position: absolute;
-  cursor: pointer;
-  background-color: white;
-  border: 1px solid rgb(225, 225, 225);
-  right: -40px;
-  width: 175px;
-  border-radius: 5px;
-  z-index: 1;
-}
+
 ul{
   padding: 0;
 }
-.TableAction .dot .firstDiv ul li {
-  padding: 10px 15px;
+.view a{
   color: var(--color-primary);
 }
-.TableAction .dot .firstDiv ul li:hover {
-  background-color: var(--color-primary-light);
-}
-.TableAction .dot .firstDiv .flex:hover {
-  background: rgb(238, 255, 252);
-}
-.TableAction .dot .firstDiv span {
-  font-size: 13px;
+.view a:hover{
+  color: var(--color-secondary);
 }
