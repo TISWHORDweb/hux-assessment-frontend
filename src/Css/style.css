@@ -341,3 +341,21 @@ ul{
 .view a:hover{
   color: var(--color-secondary);
 }
+.view{
+  padding: 30px;
+}
+@media screen and (max-width: 700px) {
+  .form__section{
+    padding: 10px !important;
+  }
+  .form__section-container{
+    padding: 20px !important;
+    width: var(--container-width-md) !important;
+  }
+  .Table{
+    overflow: scroll !important;
+  }
+  .view{
+    padding: 10px;
+  }
+}
