@@ -51,9 +51,9 @@ function Footer() {
                             <hr />
                         </div>
                         <div className="middle mb-4">
-                            <div className="row">
+                            <div className="row p-3">
                                 <div className="col-md-1"></div>
-                                <div className="col-md-4">
+                                <div className="col-md-4 ">
                                     <h4>Join to get free <br /> updates every <br /> week.</h4>
                                 </div>
                                 <div className="col-md-6">

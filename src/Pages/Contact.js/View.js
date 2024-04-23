@@ -37,7 +37,8 @@ function View() {
 
         return () => clearTimeout(timerId);
     }
-
+    const navigate = useNavigate();
+    
     const Nav = () => {
         const timerId = setTimeout(() => {
            navigate('/app/contact')
@@ -47,7 +48,7 @@ function View() {
         return () => clearTimeout(timerId);
     }
 
-    const navigate = useNavigate();
+
 
     useEffect(() => {
         if (token) {
@@ -129,7 +130,7 @@ function View() {
 
             <div className="view">
                 <div className=' '>
-                    <section class=" p-5">
+                    <section class="view">
                         <div class="container form__section-container p-5">
                             <center className='mb-4'>
                                 <img src={Icon} className='w-20' alt="" />

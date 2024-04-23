@@ -46,6 +46,14 @@ function EditContact({ data }) {
         return () => clearTimeout(timerId);
     }
 
+    const Nav = () => {
+        const timerId = setTimeout(() => {
+           window.location.reload();
+        }, 3000);
+
+        return () => clearTimeout(timerId);
+    }
+
     const HandleEdit = (e) => {
         e.preventDefault();
 
@@ -74,6 +82,7 @@ function EditContact({ data }) {
                         setClassName("alert__message success")
                         setMessage(data.message)
                         setSpin(false)
+                        Nav()
                     }
                 }).catch((e) => {
                     console.log(e);

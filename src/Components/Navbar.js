@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { REACT_APP_USER_BASE_URL } from '../Utils/Urls';
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { Check } from '../Utils/Core'
 
 function Navbar() {
@@ -32,6 +32,8 @@ function Navbar() {
     }
   }
 
+  const navigate = useNavigate();
+  
   const Clearer = () => {
     const timerId = setTimeout(() => {
       setClick(false)
@@ -40,6 +42,15 @@ function Navbar() {
 
     return () => clearTimeout(timerId);
   }
+
+  const Nav = () => {
+    const timerId = setTimeout(() => {
+       navigate('/app/contact')
+       window.location.reload();
+    }, 3000);
+
+    return () => clearTimeout(timerId);
+}
 
   const HandleCreate = ((e) => {
     e.preventDefault();
@@ -67,7 +78,7 @@ function Navbar() {
             setClassName("alert__message success")
             setMessage(data.message)
             setSpin(false)
-
+            Nav()
           } else if (data.status === false) {
             console.log(e);
             setClick(true)
