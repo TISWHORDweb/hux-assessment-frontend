@@ -9,26 +9,30 @@ import View from '../Pages/Contact.js/View';
 
 
 export const Routes = () => {
-    return useRoutes([
-        {
-          path: '/',
-          element: < Home />
-        },
-        {
-          path: '/auth/login',
-          element: < Login />
-        },
-        {
-          path: '/auth/register',
-          element: < Signup />
-        },
-        {
-          path: '/app/contact',
-          element: < Contact />
-        },
-        {
-          path: '/app/contact/view/:id',
-          element: < View />
-        }
-    ]);
+  return useRoutes([
+    {
+      path: '/',
+      element: < Home />
+    },
+    {
+      path: '/app',
+      element: < Home />
+    },
+    {
+      path: '/auth/login',
+      element: < Login />
+    },
+    {
+      path: '/auth/register',
+      element: < Signup />
+    },
+    {
+      path: '/app/contact',
+      element: < Contact />
+    },
+    {
+      path: '/app/contact/view/:id',
+      element: < View />
+    }
+  ]);
 };
